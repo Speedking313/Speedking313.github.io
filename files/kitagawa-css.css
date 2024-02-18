@@ -499,13 +499,13 @@ color: rgb(255, 255, 255);
 /* Lupe Hover in pink */
 
 .search[data-v-62eacfff]:hover svg {
-color: rgb(var(--color-blue);
+color: rgb(var(--color-blue)!important;
 }
 
 /* Lupe in weiß */
 
 .transparent .search[data-v-62eacfff] svg {
-color: rgb(255, 255, 255);
+color: rgb(255, 255, 255)!important;
 }
 
 /* Schrift in Weiß (Notifications, Profile, etc.) */
