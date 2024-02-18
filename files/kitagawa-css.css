@@ -521,6 +521,10 @@ stroke: rgb(255, 255, 255);
 color: rgb(226, 92, 111)!important;
 }
 
+.action.likes .button.liked .fa-heart:hover {
+color: rgb(226, 92, 111)!important;
+}
+
 .nav .link[data-v-1cc2919e] {
 color: rgb(255, 255, 255);
 }
