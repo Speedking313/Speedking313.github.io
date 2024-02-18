@@ -66,15 +66,18 @@ body {
 }
 
 .action.likes .button .fa-heart, .like-wrap.thread_comment .button .fa-heart {
---color-blue: 226, 92, 111;
+stroke: rgb(255, 255, 255);
+}
+
+.action.likes .button:hover {
+color: rgb(226, 92, 111);
 }
 
 .nav .link[data-v-1cc2919e] {
---color-text-lighter: 255, 255, 255;
+color: rgb(255, 255, 255);
 }
 
 /* Tägliche Aktivitäten in Weiß */
-
 
 .history-day.lv-1[data-v-b79eb0f0],
 .history-day.lv-2[data-v-b79eb0f0],
@@ -117,7 +120,3 @@ color: rgb(255, 255, 255);
 }
 
 /* Likebutton in Weiß */
-
-.action.likes .button .fa-heart {
-stroke: rgb(255, 255, 255);
-}
