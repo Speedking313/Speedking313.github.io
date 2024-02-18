@@ -535,7 +535,7 @@ color: rgb(255, 255, 255);
 background: rgb(255, 255, 255)!important;
 }
 
-.nav .link[data-v-1cc2919e] {
+.nav .link[data-v-1cc2919e], .primary-link .icon[data-v-38edf8f8] {
 color: rgb(255, 255, 255);
 }
 
