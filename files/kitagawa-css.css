@@ -9,8 +9,13 @@
 */
 
 /* Settings */
-:root, .site-theme-dark, .site-theme-contrast {
+:root, .site-theme-dark, .site-theme-contrast, .user-page-unscoped.purple {
   /* General Settings */
+
+--color-text-lighter: 255, 255, 255;
+--color-text: 255, 255, 255;
+--color-blue: 226, 92, 111;
+    
   --hokaze-br: 10px; /* Global Border Radius */
   --hokaze-pv: 30px; /* Vertical Content Padding */
   --hokaze-ph: 30px; /* Horizontal Content Padding */
@@ -68,37 +73,6 @@
   --hokaze-sab: var(--hokaze-sr) solid rgb(var(--color-background));
   --hokaze-lob: var(--hokaze-lb) solid rgb(var(--color-blue));
 }
-
-/* Light Theme
-:root {
-    --color-background:             217,219,227;
-    --color-foreground:             230,232,240;
-    --color-foreground-grey:        225,227,235;
-    --color-foreground-grey-dark:   217,219,227;
-    --color-text:                   91,87,84;
-    --color-text-light:             106,102,99;
-    --color-text-lighter:           121,117,114;
-    --color-text-bright:            226, 233, 229;
-    --color-blue:                   169, 126, 73;
-    --color-blue-dim:               191,180,164;
-    --color-green:                  169, 126, 73;
-
-}
-
-Dark Theme
-.site-theme-dark {
-    --color-background:             15, 23, 25;
-    --color-foreground:             28, 36, 38;
-    --color-foreground-grey:        20, 28, 30;
-    --color-foreground-grey-dark:   15, 23, 25;
-    --color-text:                   141, 138, 134; 
-    --color-text-light:             156, 153, 149;
-    --color-text-lighter:           161, 168, 164;
-    --color-text-bright:            176, 183, 179;
-    --color-blue:                   169, 126, 73;
-    --color-blue-dim:               91, 75, 64;
-    --color-green:                  169, 126, 73;
-} */
 
 /* Code */
 /* Body */
@@ -503,12 +477,6 @@ body {
 
 :root, .site-theme-dark, .site-theme-contrast {
 --hokaze-av: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ9havmQ1vRUaundbcmtKSYFWLSohNsnOhn7tMy38JoKsKvJViLbyQc3sl8LQSO5G1Gt2uG3EVITPffzy6aSOblmkTOfm29PvpHbhtfkc8R_cKmfUcQws3VKv0nKnvg4RGBPUNydUuT0l1SrYZEobg0ffKwovy8_fa2tgw5fvE202_2WQibZoJuN--/s1440/Marin%20Blush%202.jpg");
-}
-
-.user-page-unscoped.purple {
---color-text-lighter: 255, 255, 255;
---color-text: 255, 255, 255;
---color-blue: 226, 92, 111;
 }
 
 /* Likebutton in Weiß */
