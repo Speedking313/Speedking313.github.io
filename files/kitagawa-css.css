@@ -475,9 +475,6 @@ body {
     background-attachment: fixed;
 }
 
-:root, .site-theme-dark, .site-theme-contrast {
-}
-
 /* Likebutton in Weiß */
 
 .action.likes .button .fa-heart, .like-wrap.thread_comment .button .fa-heart {
