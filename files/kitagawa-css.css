@@ -489,7 +489,7 @@ background: rgb(var(--color-background));
     --color-gray-900: var(--color-blue);
 }
 
-/* bis hier hin Einstellungen */
+/* -------------------------------------- bis hier hin Einstellungen ----------------------------------------- */
 
 
 
@@ -526,6 +526,12 @@ color: rgb(226, 92, 111)!important;
 }
 
 .nav .link[data-v-1cc2919e] {
+color: rgb(255, 255, 255);
+}
+
+/* Lupe in weiß */
+
+.search[data-v-62eacfff]:hover svg {
 color: rgb(255, 255, 255);
 }
 
