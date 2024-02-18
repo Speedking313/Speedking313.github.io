@@ -535,8 +535,10 @@ color: rgb(255, 255, 255);
 background: rgb(255, 255, 255)!important;
 }
 
+/* Strich unter oberer Leiste (Overview ... etc.) */
+
 .nav .router-link-active::after {
-background: rgb(--color-blue);
+background: rgb(var(--color-blue));
 }
 
 /* Statistiken in Weiß (Total Anime, Days Watched, etc.) */
