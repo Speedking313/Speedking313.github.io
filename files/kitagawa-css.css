@@ -511,7 +511,7 @@ color: rgb(255, 255, 255);
 
 /* Schrift in Weiß (Notifications, Profile, etc.) */
 
-.primary-link[data-v-04b245e6], .primary-link .icon[data-v-04b245e6] {
+.primary-link[data-v-04b245e6], .primary-link .icon[data-v-04b245e6], .user .chevron[data-v-62eacfff] {
 color: rgb(255, 255, 255);
 }
 
