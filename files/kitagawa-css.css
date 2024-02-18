@@ -508,6 +508,12 @@ color: rgb(var(--color-blue);
 color: rgb(255, 255, 255);
 }
 
+/* Schrift in Weiß (Notifications, Profile, etc.) */
+
+.primary-link[data-v-04b245e6] {
+color: rgb(255, 255, 255);
+}
+
 /* Tägliche Aktivitäten in Weiß */
 
 .history-day.lv-1[data-v-b79eb0f0],
