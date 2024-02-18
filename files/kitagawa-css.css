@@ -484,6 +484,8 @@ body {
 stroke: rgb(255, 255, 255);
 }
 
+/* Likebutton Hover in Pink */
+
 .action.likes .button:hover {
 color: rgb(226, 92, 111)!important;
 }
@@ -491,6 +493,8 @@ color: rgb(226, 92, 111)!important;
 .action.likes .button.liked .fa-heart:hover {
 color: rgb(226, 92, 111)!important;
 }
+
+/* Obere Leiste in Weiß (Overview etc.) */
 
 .nav .link[data-v-1cc2919e] {
 color: rgb(255, 255, 255);
