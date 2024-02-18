@@ -500,7 +500,7 @@ color: rgb(255, 255, 255);
 /* Lupe Hover in pink */
 
 .search[data-v-62eacfff]:hover svg {
-color: rgb(var(--color-blue));
+color: rgb(var(--color-blue))!important;
 }
 
 /* Lupe in weiß */
@@ -511,7 +511,7 @@ color: rgb(255, 255, 255);
 
 /* Schrift in Weiß (Notifications, Profile, etc.) */
 
-.primary-link[data-v-04b245e6] {
+.primary-link[data-v-04b245e6], .primary-link .icon[data-v-04b245e6] {
 color: rgb(255, 255, 255);
 }
 
