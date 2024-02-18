@@ -514,6 +514,12 @@ color: rgb(255, 255, 255);
 color: rgb(255, 255, 255);
 }
 
+/* Stats in Weiß */
+
+.highlight .label[data-v-72dc5b51] {
+color: rgb(255, 255, 255);
+}
+    
 /* Tägliche Aktivitäten in Weiß */
 
 .history-day.lv-1[data-v-b79eb0f0],
