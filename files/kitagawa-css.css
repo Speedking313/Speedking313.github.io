@@ -52,7 +52,7 @@
   --hokaze-ab: 5px;   /* Avatar Border Thickness */
   --hokaze-ar: 255px;  /* Avatar Border Radius */
   --hokaze-at: all 1s ease-in-out; /* Avatar Hover Transition */
-  --hokaze-av: url("https://i.imgur.com/w6WVzJH.png"); /* Avatar Picture Link */
+  --hokaze-av: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ9havmQ1vRUaundbcmtKSYFWLSohNsnOhn7tMy38JoKsKvJViLbyQc3sl8LQSO5G1Gt2uG3EVITPffzy6aSOblmkTOfm29PvpHbhtfkc8R_cKmfUcQws3VKv0nKnvg4RGBPUNydUuT0l1SrYZEobg0ffKwovy8_fa2tgw5fvE202_2WQibZoJuN--/s1440/Marin%20Blush%202.jpg"); /* Avatar Picture Link */
   --hokaze-ah: 1.1; /* Avatar Hover Scale */
   
   /* Quick Maths - !DON'T TOUCH! */
@@ -476,7 +476,6 @@ body {
 }
 
 :root, .site-theme-dark, .site-theme-contrast {
---hokaze-av: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ9havmQ1vRUaundbcmtKSYFWLSohNsnOhn7tMy38JoKsKvJViLbyQc3sl8LQSO5G1Gt2uG3EVITPffzy6aSOblmkTOfm29PvpHbhtfkc8R_cKmfUcQws3VKv0nKnvg4RGBPUNydUuT0l1SrYZEobg0ffKwovy8_fa2tgw5fvE202_2WQibZoJuN--/s1440/Marin%20Blush%202.jpg");
 }
 
 /* Likebutton in Weiß */
