@@ -420,7 +420,7 @@ svg:not(:root).svg-inline--fa:hover {
 .theme-selector > h2 {
   color: rgb(var(--color-blue));
 }
-a, a:visited {
+a, a:visited, .primary-link .icon[data-v-38edf8f8] {
     color: rgb(255, 255, 255);
 }
 
@@ -533,10 +533,6 @@ color: rgb(255, 255, 255);
 .history-day.lv-8[data-v-b79eb0f0],
 .history-day.lv-9[data-v-b79eb0f0] {
 background: rgb(255, 255, 255)!important;
-}
-
-.nav .link[data-v-1cc2919e], .primary-link .icon[data-v-38edf8f8] {
-color: rgb(255, 255, 255);
 }
 
 .nav .router-link-active::after {
