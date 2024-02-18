@@ -539,9 +539,13 @@ background: rgb(255, 255, 255)!important;
 background: rgb(--color-blue);
 }
 
+/* Statistiken in Weiß (Total Anime, Days Watched, etc.) */
+
 .stat .label[data-v-815ccddc] {
 color: rgb(255, 255, 255);
 }
+
+/* User Bio in Weiß */
 
 .user-page-unscoped.purple {
 color: rgb(255, 255, 255);
