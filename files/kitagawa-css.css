@@ -504,19 +504,19 @@ color: rgb(var(--color-blue);
 }
 
 /* Lupe in weiß */
-
+/*
 .transparent .search[data-v-62eacfff] svg {
 color: rgb(255, 255, 255);
 }
 
 /* Schrift in Weiß (Notifications, Profile, etc.) */
-
+/*
 .primary-link[data-v-04b245e6] {
 color: rgb(255, 255, 255);
 }
 
 /* Stats in Weiß */
-
+/*
 .highlight .label[data-v-72dc5b51], .highlight .icon[data-v-72dc5b51], .option[data-v-05bb5e72] {
 color: rgb(255, 255, 255);
 }
