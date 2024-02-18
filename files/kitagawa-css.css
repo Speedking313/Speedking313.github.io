@@ -543,7 +543,7 @@ color: rgb(255, 255, 255);
 }
 
 .nav .router-link-active::after {
-background: rgb(--color-blue:);
+background: rgb(--color-blue);
 }
 
 .stat .label[data-v-815ccddc] {
