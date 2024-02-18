@@ -31,7 +31,7 @@
                rgba(0, 0, 0, 0.07) 0px 8px 16px;
   --hokaze-ns: rgba(0, 0, 0, 0.07) 0px 1px 2px, /* Box Shadow For Navbar */
                rgba(0, 0, 0, 0.07) 0px 2px 4px;
-
+  
   /* Avatar Settings */
   --hokaze-as: 100px;   /* Avatar Size: One Value = Square, Two Values = Rectangle */
   --hokaze-ap: 50% 20%; /* Inner Avatar Position */
@@ -41,7 +41,7 @@
   --hokaze-at: all 1s ease-in-out; /* Avatar Hover Transition */
   --hokaze-av: url("https://i.imgur.com/w6WVzJH.png"); /* Avatar Picture Link */
   --hokaze-ah: 1.1; /* Avatar Hover Scale */
-}
+
 
 /* bis hier hin Einstellungen */
 
@@ -66,15 +66,18 @@ body {
 }
 
 .action.likes .button .fa-heart, .like-wrap.thread_comment .button .fa-heart {
---color-blue: 226, 92, 111;
+stroke: rgb(255, 255, 255);
+}
+
+.action.likes .button:hover {
+color: rgb(226, 92, 111);
 }
 
 .nav .link[data-v-1cc2919e] {
---color-text-lighter: 255, 255, 255;
+color: rgb(255, 255, 255);
 }
 
 /* Tägliche Aktivitäten in Weiß */
-
 
 .history-day.lv-1[data-v-b79eb0f0],
 .history-day.lv-2[data-v-b79eb0f0],
@@ -93,7 +96,7 @@ color: rgb(255, 255, 255);
 }
 
 .nav .router-link-active::after {
-background: rgb(--color-blue);
+background: rgb(--color-blue:);
 }
 
 .stat .label[data-v-815ccddc] {
@@ -117,7 +120,3 @@ color: rgb(255, 255, 255);
 }
 
 /* Likebutton in Weiß */
-
-.action.likes .button .fa-heart {
-stroke: rgb(255, 255, 255);
-}
