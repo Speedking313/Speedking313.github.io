@@ -489,7 +489,6 @@ background: rgb(var(--color-background));
     --color-gray-900: var(--color-blue);
 }
 
-
 /* bis hier hin Einstellungen */
 
 
@@ -519,7 +518,7 @@ stroke: rgb(255, 255, 255);
 }
 
 .action.likes .button:hover {
-color: rgb(226, 92, 111);
+color: rgb(226, 92, 111)!important;
 }
 
 .nav .link[data-v-1cc2919e] {
