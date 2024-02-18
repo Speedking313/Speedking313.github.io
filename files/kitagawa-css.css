@@ -516,7 +516,7 @@ color: rgb(255, 255, 255);
 
 /* Stats in Weiß */
 
-.highlight .label[data-v-72dc5b51] {
+.highlight .label[data-v-72dc5b51], .highlight .icon[data-v-72dc5b51] {
 color: rgb(255, 255, 255);
 }
     
