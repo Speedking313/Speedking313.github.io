@@ -273,7 +273,7 @@ body {
   height: 121px;
 }
 .progress > .bar {
-    background: linear-gradient(270deg,rgb(var(--hokaze-gs)),rgb(var(--hokaze-ge))) !important;
+    background: linear-gradient(270deg,rgb(var(--color-blue)),rgb(var(--hokaze-ge))) !important;
 }
 .genre > .name, .favourite {
   opacity: var(--hokaze-vo);
