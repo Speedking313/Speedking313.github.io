@@ -73,6 +73,9 @@ body {
 --color-text-lighter: 255, 255, 255;
 }
 
+/* Tägliche Aktivitäten in Weiß */
+
+
 .history-day.lv-1[data-v-b79eb0f0],
 .history-day.lv-2[data-v-b79eb0f0],
 .history-day.lv-3[data-v-b79eb0f0],
@@ -95,4 +98,26 @@ background: rgb(--color-blue:);
 
 .stat .label[data-v-815ccddc] {
 color: rgb(255, 255, 255);
+}
+
+.user-page-unscoped.purple {
+color: rgb(255, 255, 255);
+}
+
+/* Sprechblasensymbol in Weiß */
+
+.actions[data-v-04d66030] {
+color: rgb(255, 255, 255);
+}
+
+/* Geliked Anzahl in Weiß */
+
+.action.likes .button {
+color: rgb(255, 255, 255);
+}
+
+/* Likebutton in Weiß */
+
+.action.likes .button .fa-heart {
+stroke: rgb(255, 255, 255);
 }
