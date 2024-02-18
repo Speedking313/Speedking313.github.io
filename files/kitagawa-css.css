@@ -447,7 +447,7 @@ svg:not(:root).svg-inline--fa:hover {
   color: rgb(var(--color-blue));
 }
 a, a:visited {
-    color: rgb(var(--color-text));
+    color: rgb(255, 255, 255);
 }
 
 /* Sorry Hoh */
