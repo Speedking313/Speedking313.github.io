@@ -511,7 +511,7 @@ color: rgb(255, 255, 255);
 /* Schrift in Weiß (Notifications, Profile, etc.) */
 
 .primary-link[data-v-04b245e6] {
-color: rgb(255, 255, 255);
+color: rgb(255, 255, 255)!important;
 }
 
 /* Stats in Weiß */
