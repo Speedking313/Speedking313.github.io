@@ -29,9 +29,8 @@
     --list-time: 0.4s; /*The time taken for the favourite animation to finish.*/
     --activity-time: 0.3s;
     --activity-border: 3px;
-    --avatar-image: url("https://i.imgur.com/RxdKVEh.png");
     --cursor-url: url("https://i.imgur.com/qtxRLwX.png"); /*Image for custom cursor.*/
-    --background-img: url("https://i.imgur.com/CJk308v.png""); /*Image for custom background.*/
+    --background-img: url("https://i.imgur.com/CJk308v.png"); /*Image for custom background.*/
     --footer-img: url("https://i.imgur.com/kj1U8w8.png"); /*Image for custom footer.*/
     --content-width: 100%; /*The width of the content box.*/
     --ksyoz-color-background: 23, 26, 33, 1; /*Main profile color.*/
@@ -335,7 +334,6 @@ This removes the banner image.*/
 
 .banner{
     visibility: hidden !important;
-    height: calc(100vh - 46px) !important;
 }
 
 .banner-content{
@@ -684,8 +682,7 @@ This makes links turn blue on hover.*/
 .button[data-v-c574a71c], .filter-group .action[data-v-170179fc], .markdown .markdown-spoiler::before, .el-checkbox, .list-editor-wrap .header .favourite,
 .list-editor-wrap .header .save-btn, .el-input-number__decrease, .el-input-number__increase, .list-editor-wrap .list-editor .body .delete-btn, .nav-btn[data-v-1cc2919e],
 .dropdown[data-v-1cc2919e], .el-button, .el-message-box__headerbtn, .el-input__suffix-inner, .el-tag .el-icon-close, .list-editor-wrap .el-textarea__inner, .el-picker-panel__icon-btn,
-.el-date-picker__header-label, .el-date-table td, .el-input-number__decrease.is-disabled, .el-input-number__increase.is-disabled, .hohRangeSetter, .button[data-v-686e8358], 
-.el-select-dropdown__item, .tagIndex p:hover, .el-icon-circle-close[data-v-170179fc] {
+.el-date-picker__header-label, .el-date-table td, .el-input-number__decrease.is-disabled, .el-input-number__increase.is-disabled, .hohRangeSetter, .button[data-v-686e8358] {
     /*This fixes the issue of spoiler tags reverting the cursor to the original.*/
     cursor: var(--cursor-url), auto;
 }
@@ -1439,23 +1436,20 @@ This makes links turn blue on hover.*/
 }
 
 .name-wrapper[data-v-1cc2919e] {
-    margin-bottom: 250px;
-    position: absolute;
-    left: 70%;
+    font-size: 24px;
 }
 
 .name-wrapper::after {
     content: "黒川" "あかね";
     color: transparent;
     background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: repeating-linear-gradient( to right, white, white, white, white, white);
-    /*background-image: repeating-linear-gradient( to right, #98c9ef, #98c9ef, white, white, white);*/
+    background-image: repeating-linear-gradient( to right, #98c9ef, #98c9ef, white, white, white);
     position: absolute;
     filter: drop-shadow(0px 0px 2px black);
-    margin: 0 0 0 20px;
-    /*margin: 0 0 0 12px;*/
-    /*font-size: 15px;*/
+    margin: 0 0 0 12px;
+    font-size: 15px;
 }
 
 .entry-dropdown[data-v-04d66030]:hover {
@@ -1637,7 +1631,7 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
 }
 
 .el-select-dropdown__item {
-    color: rgb(var(--ksyoz-color-brightest));
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 .site-theme-dark .quick-search.el-select .el-input.el-input__inner, .site-theme-dark .quick-search .el-select .el-input.is-focus .el-input__inner, .site-theme-dark .el-select-dropdown, .site-theme-dark .el-dropdown-menu, .site-theme-dark .el-dropdown-menu__item--divided::before {
@@ -1903,44 +1897,6 @@ h2[data-v-0f519cab] {
     box-shadow: 0 0 5px rgba(var(--ksyoz-color-brightest),0.8);
 }
 
-.avatar[data-v-1cc2919e] {
-    content: var(--avatar-image);
-    max-height: none;
-    max-width: 700px;
-    position: absolute;
-    left: 50%;
-    margin-left: -350px;
-}
-
-.banner-content h1.name {
-    font-size: 40px;
-    display: block;
-}
-
-.banner .container[data-v-1cc2919e] {
-    flex-direction: column-reverse;
-}
-
-.el-select-dropdown__item.hover, .el-select-dropdown__item:hover {
-    background-color: rgb(var(--ksyoz-color-main));
-}
-
-.compare-btn[data-v-170179fc] {
-    background-color: rgb(var(--ksyoz-color-main));
-}
-
-.hohButton {
-    background: rgb(var(--ksyoz-color-main));
-}
-
-.tagIndex {
-    color: rgb(var(--ksyoz-color-brightest))
-}
-
-.tagIndex p:hover {
-    color: rgb(var(--ksyoz-color-main));
-}
-
 @keyframes stars {
     0% {
       background-position: 0 0;
@@ -1992,5 +1948,10 @@ h2[data-v-0f519cab] {
 
 @media (max-width: 1540px) {.search[data-v-62eacfff] {
     margin-left: 50px;
+    }
+}
+
+@media (max-width: 1540px) {.banner-content[data-v-1cc2919e] {
+    margin-left: 60px;
     }
 }
