@@ -540,7 +540,7 @@ This improves the favourites section a lot.*/
 }
 
 .favourites.preview .favourites-wrap[data-v-ddf96a3c] {
-    overflow: visible;
+    overflow: hidden;
 }
 
 /*.favourites[data-v-ddf96a3c] {
