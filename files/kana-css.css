@@ -615,7 +615,7 @@ This gives the footer a similar design to the header.*/
     position: relative;
 }
 
-.footer[data-v-0f519cab]::before {
+/* .footer[data-v-0f519cab]::before {
     content: "";
     display: block;
     position: absolute;
@@ -625,7 +625,7 @@ This gives the footer a similar design to the header.*/
     left: 0;
     background: var(--footer-img);
     animation: stars 20s infinite linear;
-}
+} */
 
 /*scrollbarFix
 
