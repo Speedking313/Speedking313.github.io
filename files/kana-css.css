@@ -834,7 +834,7 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-.el-input, .el-textarea {
+.el-input {
     background: rgb(var(--ksyoz-color-background));
 }
 
