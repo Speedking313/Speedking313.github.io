@@ -35,7 +35,7 @@
     --content-width: 100%; /*The width of the content box.*/
     --ksyoz-color-background: 0, 0, 0, 0.75; /*Main profile color.*/
     --ksyoz-color-background-t: 0, 0, 0, 0.5;
-    --ksyoz-color-background-d: 18, 20, 26, 1;
+    --ksyoz-color-background-d: 0, 0, 0, 0.75;
     --ksyoz-color-sub: 136, 183, 219;
     --ksyoz-color-brightest: 255, 255, 255;
     --ksyoz-color-brighter: 212, 212, 212;
