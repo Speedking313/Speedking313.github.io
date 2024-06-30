@@ -1678,7 +1678,7 @@ body:not(.site-theme-dark) .theme-preview.default {
     display: none;
 }
 
-.theme-preview:is(.default, .dark) {
+/* .theme-preview:is(.default, .dark) {
     position: fixed;
     right: 10px;
     bottom: 10px;
@@ -1693,7 +1693,7 @@ body:not(.site-theme-dark) .theme-preview.default {
     background-repeat: no-repeat;
     background-color: rgb(92, 124, 148);
     overflow: hidden
-}
+} */
 
 .theme-preview.dark::after {
     content: '';
