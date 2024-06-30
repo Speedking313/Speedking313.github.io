@@ -36,6 +36,7 @@
     --ksyoz-color-background: 0, 0, 0, 0.75; /*Main profile color.*/
     --ksyoz-color-background-t: 0, 0, 0, 0.5;
     --ksyoz-color-background-d: 18, 20, 26, 1;
+    --ksyoz-color-background-eingabe: 0, 0, 0, 0;
     --ksyoz-color-sub: 136, 183, 219;
     --ksyoz-color-brightest: 255, 255, 255;
     --ksyoz-color-brighter: 212, 212, 212;
@@ -424,7 +425,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 .input[data-v-c574a71c] .el-textarea__inner {
     border-bottom: 2px solid rgb(var(--ksyoz-color-brightest));
     border-radius: var(--curvyness);
-    background: rgb(var(--ksyoz-color-background));
+    background: rgb(var(--ksyoz-color-background-eingabe));
 }
 
 .el-textarea{
