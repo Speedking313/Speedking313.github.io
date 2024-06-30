@@ -33,7 +33,7 @@
     --background-img: url("https://i.imgur.com/CJk308v.png"); /*Image for custom background.*/
     --footer-img: url("https://i.imgur.com/kj1U8w8.png"); /*Image for custom footer.*/
     --content-width: 100%; /*The width of the content box.*/
-    --ksyoz-color-background: 0, 0, 0, 1; /*Main profile color.*/
+    --ksyoz-color-background: 0, 0, 0, 0.5; /*Main profile color.*/
     --ksyoz-color-background-t: 0, 0, 0, 0.5;
     --ksyoz-color-background-d: 18, 20, 26, 1;
     --ksyoz-color-sub: 136, 183, 219;
