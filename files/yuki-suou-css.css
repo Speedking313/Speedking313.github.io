@@ -1832,3 +1832,7 @@ h2[data-v-0f519cab] {
     margin-left: 60px;
     }
 }
+
+.banner-content h1.name {
+     filter: drop-shadow(0px 0px 2px black);
+}
