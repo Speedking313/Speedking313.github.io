@@ -48,10 +48,10 @@
     --ksyoz-color-overlay: 28, 21, 46;
     --ksyoz-color-header: 229, 231, 234;
     --ksyoz-color-1: 255, 255, 255;
-    --ksyoz-color-2&3: 126, 176, 251;
-    --ksyoz-color-4&5: 253, 122, 252;
-    --ksyoz-color-6&7: 252, 94, 128;
-    --ksyoz-color-8&9: 253, 231, 43;
+    --ksyoz-color-2-3: 126, 176, 251;
+    --ksyoz-color-4-5: 253, 122, 252;
+    --ksyoz-color-6-7: 252, 94, 128;
+    --ksyoz-color-8-9: 253, 231, 43;
     --opacity-header: 1; /*How opaque the header is: higher number = less seethrough.*/
     --transition-img: 0.5s; /*Transition time from the image in the activity.*/
     --transition-txt: 0.6s; /*Transition time from the text in the activity.*/
@@ -219,35 +219,35 @@ body {
 }
 
 .history-day.lv-2[data-v-b79eb0f0], .tooltip .circle.lv-2[data-v-b79eb0f0] {
-    background: rgb(var(--ksyoz-color-2&3),0.75);
+    background: rgb(var(--ksyoz-color-2-3),0.75);
 }
 
 .history-day.lv-3[data-v-b79eb0f0], .tooltip .circle.lv-3[data-v-b79eb0f0] {
-    background: rgba(var(--ksyoz-color-2&3),0.8);
+    background: rgba(var(--ksyoz-color-2-3),0.8);
 }
 
 .history-day.lv-4[data-v-b79eb0f0], .tooltip .circle.lv-4[data-v-b79eb0f0] {
-    background: rgba(var(--ksyoz-color-4&5),0.85);
+    background: rgba(var(--ksyoz-color-4-5),0.85);
 }
 
 .history-day.lv-5[data-v-b79eb0f0], .tooltip .circle.lv-5[data-v-b79eb0f0] {
-    background: rgba(var(--ksyoz-color-4&5),0.9);
+    background: rgba(var(--ksyoz-color-4-5),0.9);
 }
 
 .history-day.lv-6[data-v-b79eb0f0], .tooltip .circle.lv-6[data-v-b79eb0f0] {
-    background: rgba(var(--ksyoz-color-6&7),0.9);
+    background: rgba(var(--ksyoz-color-6-7),0.9);
 }
 
 .history-day.lv-7[data-v-b79eb0f0], .tooltip .circle.lv-7[data-v-b79eb0f0] {
-    background: rgba(var(--ksyoz-color-6&7),0.9);
+    background: rgba(var(--ksyoz-color-6-7),0.9);
 }
 
 .history-day.lv-8[data-v-b79eb0f0], .tooltip .circle.lv-8[data-v-b79eb0f0] {
-    background: rgba(var(--ksyoz-color-8&9),0.9);
+    background: rgba(var(--ksyoz-color-8-9),0.9);
 }
 
 .history-day.lv-9[data-v-b79eb0f0], .tooltip .circle.lv-9[data-v-b79eb0f0] {
-    background: rgba(var(--ksyoz-color-8&9),0.9);
+    background: rgba(var(--ksyoz-color-8-9),0.9);
 }
 
 /*milestones*/
