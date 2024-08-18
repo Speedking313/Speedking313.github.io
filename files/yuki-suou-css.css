@@ -1653,7 +1653,7 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
 }
 
 .activity-history[data-v-b79eb0f0] {
-    background: rgb(var(--ksyoz-color-main)) !important;
+    background: rgb(var(--ksyoz-color-highlight)) !important;
 }
 
 .result-col[data-v-17620a08] {
