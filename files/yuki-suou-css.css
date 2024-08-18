@@ -37,6 +37,7 @@
     --ksyoz-color-background-t: 0, 0, 0, 0.5;
     --ksyoz-color-background-d: 0, 0, 0, 0.75;
     --ksyoz-color-sub: 136, 183, 219;
+    --ksyoz-color-highlight: 125, 104, 111;
     --ksyoz-color-brightest: 255, 255, 255;
     --ksyoz-color-brighter: 212, 212, 212;
     --ksyoz-color-bright: 200, 200, 200;
@@ -311,7 +312,7 @@ This section makes the about section and activities display in full instead of h
 }
 */
 .link[data-v-62eacfff] {
-    color: rgb(var(--ksyoz-color-brightest));
+    color: rgb(var(--ksyoz-color-highlight));
 }
 
 .link[data-v-62eacfff]:nth-child(3) {
