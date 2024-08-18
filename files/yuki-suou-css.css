@@ -3,7 +3,7 @@
 
 :root {
     --logo-width: 65px; /*Height of the logo.*/
-    --logo-height: 100px; /*Width of the logo. I recommend you change this to fit the aspect ratio of the image you're using.*/
+    --logo-height: 60px; /*Width of the logo. I recommend you change this to fit the aspect ratio of the image you're using.*/
     --logo-time: 0.5s; /*How long it takes the logo to scale and rotate when hovered over.*/
     --logo-scale: 1.1;
     --head-width: 100%; /*The width of the header and footer.*/
