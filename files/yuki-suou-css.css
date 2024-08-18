@@ -42,7 +42,7 @@
     --ksyoz-color-bright: 200, 200, 200;
     --ksyoz-color-main: 255,255,255;
     --ksyoz-color-main-d: 255, 255, 255;
-    --ksyoz-color-post: 159,173,189;
+    --ksyoz-color-post: 255,255,255;
     --ksyoz-color-overlay: 28, 21, 46;
     --ksyoz-color-header: 229, 231, 234;
     --opacity-header: 1; /*How opaque the header is: higher number = less seethrough.*/
