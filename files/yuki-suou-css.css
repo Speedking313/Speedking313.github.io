@@ -303,13 +303,13 @@ This section makes the about section and activities display in full instead of h
     left: 0;
     right: 0;
 }
-
+/*
 .logo img[data-v-62eacfff] {
     content: url(https://i.imgur.com/Qy26Mgz.png);
     height: var(--logo-height);
     width: auto;
 }
-
+*/
 .link[data-v-62eacfff] {
     color: rgb(var(--ksyoz-color-brightest));
 }
