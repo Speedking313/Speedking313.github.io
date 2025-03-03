@@ -90,9 +90,13 @@ span.hohStepper.noselect {
     color: white;
 }
 
+.hohActive {
+    color: white;
+}
 
-
-
+.hohStatsTrigger {
+    color: white;
+}
 
 
 
