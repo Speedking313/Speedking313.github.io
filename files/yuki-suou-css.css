@@ -114,6 +114,14 @@ span.hohStepper.noselect {
 
 
 
+
+
+
+
+
+
+
+
 .medialist.table .section-name {
     color: white;
 }
@@ -143,7 +151,7 @@ span.hohStepper.noselect {
 }
 
 a:hover {
-    color: rgb(var(--ksyoz-color-main));
+    color: rgb(var(--ksyoz-color-main)) !important ;
 }
 
 a:visited:hover {
