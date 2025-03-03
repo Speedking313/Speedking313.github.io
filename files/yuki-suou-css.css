@@ -42,7 +42,7 @@
     --ksyoz-color-brightest: 255, 255, 255;
     --ksyoz-color-brighter: 212, 212, 212;
     --ksyoz-color-bright: 200, 200, 200;
-    --ksyoz-color-main: 255,255,255;
+    --ksyoz-color-main: 252,94,128;
     --ksyoz-color-main-d: 255, 255, 255;
     --ksyoz-color-post: 255,255,255;
     --ksyoz-color-overlay: 28, 21, 46;
@@ -476,13 +476,13 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     left: 50%;
     height: 2px;
     width: 0;
-    background: rgb(var(--ksyoz-color-main));
+    background: white;
     transition: all var(--underline-time) ease;
 }
 .nav > .router-link-active::after {
     left: 0;
     width: 100%;
-    background: rgb(var(--ksyoz-color-main));
+    background: white;
 }
 .nav > .link:hover::after {
     left: 0;
@@ -861,7 +861,7 @@ This makes links turn blue on hover.*/
 }
 
 .nav .router-link-active[data-v-1cc2919e]:hover {
-    color: rgb(var(--ksyoz-color-main));
+    color: white;
 }
 
 .stat .value[data-v-815ccddc] {
@@ -913,7 +913,7 @@ This makes links turn blue on hover.*/
 }
 
 .nav .link[data-v-1cc2919e]:hover {
-    color: rgb(var(--ksyoz-color-main));
+    color: white;
 }
 
 .action.likes .button .fa-heart, .like-wrap.thread_comment .button .fa-heart {
