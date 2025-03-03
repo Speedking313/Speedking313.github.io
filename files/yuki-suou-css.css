@@ -495,7 +495,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 .nav > .link:hover::after {
     left: 0;
     width: 100%;
-    background: rgb(var(--ksyoz-color-main));
+    background: white;
 }
 
 /*This hides part of the stats preview and reveals it when hovered over. Thanks again, Anzu.
