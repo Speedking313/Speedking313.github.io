@@ -66,6 +66,22 @@
     --scroll: 960px;
 }
 
+.filter-group .group-header[data-v-170179fc] {
+    color: white;
+}
+
+.el-slider__bar {
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
 .medialist.table .section-name {
     color: white;
 }
