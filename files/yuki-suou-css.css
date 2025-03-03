@@ -1132,7 +1132,7 @@ This makes links turn blue on hover.*/
 }
 
 .link[data-v-62eacfff]:hover {
-    color: rgb(var(--ksyoz-color-main));
+    color: white;
 }
 
 .search[data-v-62eacfff]:hover svg {
