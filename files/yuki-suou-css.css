@@ -66,6 +66,10 @@
     --scroll: 960px;
 }
 
+.medialist.table .section-name {
+    color: white;
+}
+
 #app .filters.mobile-nav-hidden>.filter-group>span {
      color: white;
 }
