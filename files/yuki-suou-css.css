@@ -94,10 +94,10 @@ span.hohStepper.noselect {
     color: white;
 }
 
-/* .hohStatsTrigger {
-    color: white;
+ .hohStatsTrigger {
+    color: white !important;
 }
-*/
+
 .heading h3[data-v-72dc5b51] {
     color: white;
 }
