@@ -151,7 +151,7 @@ span.hohStepper.noselect {
 }
 
 a:hover {
-    color: rgb(var(--ksyoz-color-main)) !important ;
+    color: rgb(var(--ksyoz-color-main));
 }
 
 a:visited:hover {
