@@ -103,7 +103,7 @@ span.hohStepper.noselect {
 }
 
 .user-social .filter-group span {
-    color: white;
+    color: white !important ;
 }
 
 .filter-group[data-v-e4963b98] .group-header {
